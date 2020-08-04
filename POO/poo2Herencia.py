@@ -32,13 +32,14 @@ class furgo(vehiculo):
     def __init__(self, marca, modelo, ruedas):
         super().__init__(marca, modelo)
         self.ruedas=ruedas
-    
+    '''    
     def cargar(self, cargar):
         self.cargar=cargar
         if self.cargar:
             return "Cargada"
         else:
             return "No se ha cargado"
+    '''
 
 class vElectrico():
     def __init__(self, autonomia):
@@ -56,6 +57,6 @@ mimoto.estado()
 
 miFurgo=furgo("Renault", "Kangoo", 5)
 print(str(miFurgo.ruedas))
-print(miFurgo.cargar(True))
+#print(miFurgo.cargar(True))
 miFurgo.estado()
 
