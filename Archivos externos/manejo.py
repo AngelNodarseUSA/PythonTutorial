@@ -4,7 +4,6 @@ archivo=open("textito.txt","r")
 print(archivo.read(20))
 #archivo.seek(20)
 print(archivo.read())
-print(archivo.read(0))
 '''
 archivo.write("\nsigo funcionando")
 archivo.close()
